@@ -72,3 +72,44 @@ _run_logs/
 *.whl
 stdout.txt
 stderr.txt
+
+# QIRA Phase 3E-V publication-safety hardening
+# Missing-only defensive ignore patterns for local secrets, non-public data artifacts, and archives.
+# Added as a bounded publication-risk reduction patch; not a publication approval.
+
+# Additional local secrets and credential material
+secret/
+credentials/
+credential/
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# Additional local database and non-public data artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.parquet
+*.csv
+*.jsonl
+
+# Additional local archive artifacts
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Additional local environment manager files
+.envrc
