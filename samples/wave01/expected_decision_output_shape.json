@@ -1,0 +1,22 @@
+{
+  "required_output_fields": [
+    "run_id",
+    "decision_context_id",
+    "instrument_id",
+    "decision",
+    "gross_ev_bps",
+    "net_ev_bps",
+    "risk_adjusted_ev_bps",
+    "gate_status",
+    "gate_reasons",
+    "gate_reason_details",
+    "explanation",
+    "proof_limits",
+    "trace_receipt"
+  ],
+  "allowed_decision_values": ["ACT", "NO_ACTION", "ABSTAIN"],
+  "allowed_gate_status_values": ["PASS", "BLOCK", "ABSTAIN"],
+  "proof_limits": {
+    "scope": "Expected shape only; no expected performance or investment validity claim."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_id": "QIRA_WAVE01_DECISION_INPUT_SCHEMA",
+  "type": "object",
+  "required": [
+    "decision_context_id",
+    "as_of_timestamp",
+    "instrument_id",
+    "expected_return_bps",
+    "expected_cost_bps",
+    "uncertainty_bps",
+    "risk_score",
+    "liquidity_score",
+    "regime_label",
+    "config_id"
+  ],
+  "properties": {
+    "decision_context_id": {"type": "string"},
+    "as_of_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|\\+00:00)$",
+      "description": "Explicit UTC ISO-8601/RFC3339 timestamp. Runtime embedded validation is the load-bearing fail-closed control."
+    },
+    "instrument_id": {"type": "string"},
+    "expected_return_bps": {"type": "number"},
+    "expected_cost_bps": {"type": "number"},
+    "uncertainty_bps": {"type": "number", "minimum": 0},
+    "risk_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "liquidity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "regime_label": {"type": "string"},
+    "config_id": {"type": "string"},
+    "input_payload_sha256": {"type": "string"},
+    "c05_hash_lineage_contract_version": {"type": "string"},
+    "c05_hash_lineage_contract_sha256": {"type": "string"}
+  },
+  "proof_limits": {
+    "scope": "Schema-like Wave 01 skeleton contract; not full production schema validation."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_id": "QIRA_WAVE01_DECISION_OUTPUT_SCHEMA",
+  "type": "object",
+  "required": [
+    "run_id",
+    "decision_context_id",
+    "instrument_id",
+    "decision",
+    "gross_ev_bps",
+    "net_ev_bps",
+    "risk_adjusted_ev_bps",
+    "gate_status",
+    "gate_reasons",
+    "gate_reason_details",
+    "explanation",
+    "proof_limits",
+    "trace_receipt",
+    "ev_units",
+    "ev_horizon",
+    "data_version",
+    "model_version",
+    "output_contract_version",
+    "claim_boundary_policy"
+  ],
+  "properties": {
+    "run_id": {"type": "string"},
+    "decision_context_id": {"type": "string"},
+    "instrument_id": {"type": "string"},
+    "decision": {"type": "string", "enum": ["ACT", "NO_ACTION", "ABSTAIN"]},
+    "gross_ev_bps": {"type": "number"},
+    "net_ev_bps": {"type": "number"},
+    "risk_adjusted_ev_bps": {"type": "number"},
+    "gate_status": {"type": "string", "enum": ["PASS", "BLOCK", "ABSTAIN"]},
+    "gate_reasons": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "gate_reason_details": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["reason_code", "severity"],
+        "properties": {
+          "reason_code": {"type": "string"},
+          "severity": {"type": "string"},
+          "source": {"type": "string"},
+          "observed_field": {"type": ["string", "null"]},
+          "observed_value": {"type": ["number", "string", "boolean", "null"]},
+          "threshold_field": {"type": ["string", "null"]},
+          "threshold_value": {"type": ["number", "string", "boolean", "null"]},
+          "comparator": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "explanation": {"type": "object"},
+    "proof_limits": {"type": "object"},
+    "trace_receipt": {
+      "type": "object",
+      "properties": {
+        "c05_hash_lineage_contract_version": {"type": "string"},
+        "c05_hash_lineage_contract_sha256": {"type": "string"},
+        "config_payload_sha256": {"type": "string"},
+        "normalized_config_sha256": {"type": "string"},
+        "runtime_loaded_config_sha256": {"type": "string"},
+        "input_payload_sha256": {"type": "string"},
+        "output_payload_pre_trace_sha256": {"type": "string"},
+        "error_payload_pre_trace_sha256": {"type": "string"},
+        "trace_receipt_sha256": {"type": "string"},
+        "manifest_sha256": {"type": "string"},
+        "run_manifest_sha256": {"type": "string"},
+        "command_context_sha256": {"type": "string"},
+        "lineage_bundle_sha256": {"type": "string"},
+        "canonical_hash_lineage_status": {"type": "object"},
+        "proof_limits": {"type": "object"}
+      },
+      "additionalProperties": true
+    },
+    "ev_units": {"type": "string"},
+    "ev_horizon": {"type": "string"},
+    "data_version": {"type": "string"},
+    "model_version": {"type": "string"},
+    "output_contract_version": {"type": "string"},
+    "claim_boundary_policy": {"type": "object"},
+    "abstain_reason": {"type": "string"},
+    "validation_status": {"type": "string"},
+    "error_payload_without_trace_hash_sha256": {"type": "string"},
+    "final_output_file_sha256": {"type": "string"},
+    "final_error_file_sha256": {"type": "string"}
+  },
+  "proof_limits": {
+    "scope": "Structural Wave 01 skeleton contract for current success-output fields and no-runtime C02/C02B design-clarity fields only; not full output contract canonicalization, EV semantic acceptance, runtime validation, runtime behavior, or C02 closure."
+  }
+}

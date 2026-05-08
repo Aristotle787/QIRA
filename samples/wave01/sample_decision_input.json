@@ -1,0 +1,16 @@
+{
+  "decision_context_id": "QIRA-WAVE01-SYNTHETIC-DECISION-001",
+  "as_of_timestamp": "2026-04-26T00:00:00Z",
+  "instrument_id": "SYNTHETIC.DEMO",
+  "expected_return_bps": 18.0,
+  "expected_cost_bps": 3.0,
+  "uncertainty_bps": 5.0,
+  "risk_score": 0.4,
+  "liquidity_score": 0.8,
+  "regime_label": "SYNTHETIC_DEMO_ONLY",
+  "config_id": "QIRA_WAVE01_DEFAULT_CONFIG",
+  "proof_limits": {
+    "sample_scope": "Synthetic demo-only sample; no performance, alpha, or investment validity claim."
+  }
+}
+
