@@ -1,0 +1,21 @@
+name: QIRA Python Quality Candidate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  candidate-python-quality:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Candidate boundary
+        run: |
+          echo "CANDIDATE_ONLY"
+          echo "NOT_ACTIVE_PROOF"
+          echo "TOOLS_FULLY_INSTALLED_CLAIM = NOT_PROVEN"
+          echo "TESTS_PASS_CLAIM = NOT_PROVEN"
+          echo "GITHUB_ACTIONS_PARSER_ACCEPTANCE_CLAIM = NOT_PROVEN"
+      - name: Future tool adoption placeholder
+        run: |
+          echo "Ruff, Pyright or BasedPyright, and pytest require separate authorization."
+

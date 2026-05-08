@@ -1,0 +1,47 @@
+{
+  "artifact_status": "UNCOMMITTED_CANDIDATE",
+  "components": [
+    {
+      "path": ".github/workflows/qira-governance-static.yml",
+      "status": "DORMANT_CANDIDATE_ONLY"
+    },
+    {
+      "path": ".github/workflows/qira-python-quality-candidate.yml",
+      "status": "DORMANT_CANDIDATE_ONLY"
+    },
+    {
+      "path": "tools/ci/qira_ci_local_static_runner.py",
+      "status": "LOCAL_STDLIB_STATIC_CANDIDATE"
+    }
+  ],
+  "claims_not_proven": {
+    "BENCHMARK_ADVANTAGE_CLAIM": "NOT_PROVEN",
+    "CI_CONFIGURED_CLAIM": "NOT_PROVEN",
+    "DD_READINESS_CLAIM": "NOT_PROVEN",
+    "ECONOMIC_CORRECTNESS_CLAIM": "NOT_PROVEN",
+    "EV_CORRECTNESS_CLAIM": "NOT_PROVEN",
+    "GITHUB_ACTIONS_PARSER_ACCEPTANCE_CLAIM": "NOT_PROVEN",
+    "MCP_OPERATIONAL_CLAIM": "NOT_PROVEN",
+    "OOS_READINESS_CLAIM": "NOT_PROVEN",
+    "PRODUCTION_READINESS_CLAIM": "NOT_PROVEN",
+    "REMOTE_CI_RUN_CLAIM": "NOT_PROVEN",
+    "REPRODUCIBLE_LOCKED_RUNTIME_CLAIM": "NOT_PROVEN",
+    "SALE_READINESS_CLAIM": "NOT_PROVEN",
+    "SUBAGENTS_OPERATIONAL_CLAIM": "NOT_PROVEN",
+    "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM": "NOT_PROVEN",
+    "TESTS_PASS_CLAIM": "NOT_PROVEN",
+    "TOOLS_FULLY_APPROVED_CLAIM": "NOT_PROVEN",
+    "TOOLS_FULLY_INSTALLED_CLAIM": "NOT_PROVEN",
+    "VALIDATION_READINESS_CLAIM": "NOT_PROVEN",
+    "VALUATION_SUPPORT_CLAIM": "NOT_PROVEN"
+  },
+  "dormant_workflow_status": "MANUAL_DISPATCH_WITH_DISABLED_JOB_GATE_CANDIDATE_ONLY",
+  "github_parser_acceptance": "NOT_PROVEN",
+  "next_route": "ASSISTANT_QG_REVIEW_PHASE_3_CI_CANDIDATE_AND_PREPARE_ALLOWLIST_COMMIT_PACKET",
+  "proof_ceiling": "PHASE_3_CI_QUALITY_LOOP_CANDIDATE_CREATED_AND_LOCAL_STATIC_SELF_VERIFIED_WITH_LIMITS_NO_REMOTE_CI_RUN_NO_INSTALL_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+  "remote_ci_execution": "NOT_PROVEN",
+  "tool_adoption_status": "NOT_APPROVED",
+  "untracked_safe_preflight": "ENFORCED_FOR_THIS_PACKET",
+  "yaml_syntax_validity": "NOT_PROVEN"
+}
+

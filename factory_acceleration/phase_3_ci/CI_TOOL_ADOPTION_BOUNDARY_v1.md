@@ -1,0 +1,36 @@
+# QIRA Phase 3 CI Tool Adoption Boundary
+
+Tool candidate listing is not approval, installation, execution, or proof.
+
+For each candidate tool below:
+- ADOPTION_STATUS = NOT_APPROVED
+- INSTALL_STATUS = NOT_INSTALLED_BY_THIS_PACKET
+- EXECUTION_STATUS = NOT_RUN_BY_THIS_PACKET
+- PROOF_STATUS = NOT_PROVEN
+- NEXT_ROUTE = SEPARATE_TOOL_SANDBOX_OR_INSTALL_AUTHORIZATION_REQUIRED
+
+Tool candidates:
+- Ruff
+- Pyright
+- BasedPyright
+- pytest
+- Gitleaks
+- OSV-Scanner
+- Semgrep
+- ast-grep
+- pip-audit
+- Syft
+- Grype
+- nox
+- pre-commit
+
+Claims not proven:
+- TOOLS_FULLY_INSTALLED_CLAIM = NOT_PROVEN
+- TOOLS_FULLY_APPROVED_CLAIM = NOT_PROVEN
+- TESTS_PASS_CLAIM = NOT_PROVEN
+- VALIDATION_READINESS_CLAIM = NOT_PROVEN
+- DD_READINESS_CLAIM = NOT_PROVEN
+
+Proof ceiling:
+PHASE_3_CI_QUALITY_LOOP_CANDIDATE_CREATED_AND_LOCAL_STATIC_SELF_VERIFIED_WITH_LIMITS_NO_REMOTE_CI_RUN_NO_INSTALL_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF
+

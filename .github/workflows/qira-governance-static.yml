@@ -1,0 +1,18 @@
+name: QIRA Governance Static Candidate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  candidate-static-governance:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Candidate boundary
+        run: |
+          echo "CANDIDATE_ONLY"
+          echo "NOT_ACTIVE_PROOF"
+          echo "REMOTE_CI_RUN_CLAIM = NOT_PROVEN"
+      - name: Future local static runner candidate
+        run: python -B tools/ci/qira_ci_local_static_runner.py
+
