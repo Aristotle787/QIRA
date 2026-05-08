@@ -1,0 +1,258 @@
+{
+  "cases": [
+    {
+      "case_class": "happy_path_or_replay",
+      "case_id": "HAPPY_A_REPAIR",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "synthetic_repaired",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": null,
+      "expected_exit_code": 0,
+      "expected_output_files": [
+        "decision_output.json",
+        "execution_manifest.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "error_output.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "happy_path_or_replay",
+      "case_id": "HAPPY_B_REPLAY",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "synthetic_repaired",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": null,
+      "expected_exit_code": 0,
+      "expected_output_files": [
+        "decision_output.json",
+        "execution_manifest.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "error_output.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MISSING_INPUT",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "synthetic_repaired",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "FILE_NOT_FOUND",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MISSING_CONFIG",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "missing_or_malformed_config",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "FILE_NOT_FOUND",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MALFORMED_INPUT_JSON",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "synthetic_repaired",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "JSON_PARSE_ERROR",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MALFORMED_CONFIG_JSON",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "missing_or_malformed_config",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "JSON_PARSE_ERROR",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MISSING_REQUIRED_INPUT_FIELD",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "synthetic_repaired",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "VALIDATION_ERROR",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    },
+    {
+      "case_class": "negative_failure_envelope",
+      "case_id": "NEG_MISSING_REQUIRED_CONFIG_FIELD",
+      "claims_allowed": [
+        "NOT_PROVEN proof-limit fields"
+      ],
+      "claims_forbidden": [
+        "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+        "DD_READINESS_CLAIM = NOT_PROVEN",
+        "SALE_READINESS_CLAIM = NOT_PROVEN",
+        "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+        "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN",
+        "EV_CORRECTNESS_CLAIM = NOT_PROVEN"
+      ],
+      "config_class": "missing_or_malformed_config",
+      "evidence_basis": "EXTERNAL_FILE_OBSERVED",
+      "expected_error_marker_if_applicable": "VALIDATION_ERROR",
+      "expected_exit_code": 2,
+      "expected_output_files": [
+        "error_output.json",
+        "run.log"
+      ],
+      "forbidden_output_files_if_applicable": [
+        "decision_output.json",
+        "execution_manifest.json"
+      ],
+      "input_class": "synthetic_reference",
+      "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+      "proof_level": "observed_synthetic_runtime_envelope_with_limits",
+      "traceback_allowed": "NO"
+    }
+  ],
+  "evidence_basis": "EXTERNAL_FILE_OBSERVED plus ACCEPTED_QG_CLASSIFICATION",
+  "proof_ceiling": "C02B_GOLDEN_BEHAVIOR_TABLE_DERIVED_FROM_ACCEPTED_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_CORRECTNESS_PROOF",
+  "runtime_executed_in_this_wave": "NO",
+  "table_id": "C02B_GOLDEN_BEHAVIOR_TABLE_v1",
+  "tests_created": "NO",
+  "validation_created": "NO"
+}

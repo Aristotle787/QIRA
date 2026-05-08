@@ -1,0 +1,573 @@
+{
+  "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+  "register_id": "QIRA_TOOL_CANDIDATE_REGISTER_v1",
+  "tools": [
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Serena",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "ast-grep",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Hypothesis",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "CrossHair",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "mutmut",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Probe",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "SocratiCode",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "OpenTelemetry",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Gitleaks",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_AVAILABLE_NO_INSTALL_PERFORMED",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "OSV-Scanner",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "pip-audit",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Syft",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Grype",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Ruff",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Pyright or BasedPyright",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "pytest",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "nox or task runner candidate",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "PARKED_PENDING_NETWORK_INSTALL_POLICY",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "pre-commit",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Inspect AI class",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "Graphectory class",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    },
+    {
+      "adoption_status": "RESEARCH",
+      "allowed_routes": [
+        "separate_admission_packet",
+        "bounded_superwave"
+      ],
+      "forbidden_routes": [
+        "active_repo_broad_scan_without_authorization",
+        "network_install_without_packet",
+        "MCP_activation_without_packet"
+      ],
+      "install_required": "UNKNOWN_OR_YES_FOR_FUTURE unless local available",
+      "ip_risk": "UNKNOWN_UNTIL_REVIEW",
+      "license_status_unknown_or_known": "UNKNOWN",
+      "network": "NO in this packet",
+      "phase": "wave_1_admission_or_future_research",
+      "proof_ceiling": "QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF",
+      "purpose": "factory acceleration candidate",
+      "reads": "bounded explicit surfaces only",
+      "sandbox_status": "NOT_ATTEMPTED_IN_THIS_PACKET",
+      "security_risk": "ZERO_TRUST",
+      "state_or_cache_risk": "CONTAINMENT_REQUIRED",
+      "telemetry_risk": "UNKNOWN_UNTIL_ADMISSION",
+      "tool_name": "ImpossibleBench principle",
+      "windows_support_unknown_or_known": "UNKNOWN",
+      "writes": "sandbox only unless separately authorized"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# AST_GREP Sandbox Admission v1
+
+local_available = NO
+version_or_help_observed = NO
+no_install_performed = YES
+no_network_used = YES
+timeout_status = NO_TIMEOUT_OBSERVED
+sandbox_write_containment_status = WRITES_LIMITED_TO_EXTERNAL_SANDBOX_OR_NOT_RUN
+active_repo_scan = NO
+accepted_head_surface_copy_scan = NO
+synthetic_sandbox_trial_result = NOT_RUN
+admission_decision = NOT_AVAILABLE_NO_INSTALL_PERFORMED
+
+Proof ceiling: QIRA_FACTORY_ACCELERATION_SUPERWAVE_1_ARTIFACTS_AND_TOOL_ADMISSION_DEFINED_WITH_LIMITS_NO_INSTALL_NO_NETWORK_NO_RUNTIME_NO_TESTS_NO_VALIDATION_NO_READINESS_PROOF
