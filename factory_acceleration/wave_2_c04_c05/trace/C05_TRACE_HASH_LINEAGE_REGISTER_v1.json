@@ -1,0 +1,101 @@
+{
+  "claims_not_proven": [
+    "TOOLS_FULLY_INSTALLED_CLAIM = NOT_PROVEN",
+    "TOOLS_FULLY_APPROVED_CLAIM = NOT_PROVEN",
+    "MCP_OPERATIONAL_CLAIM = NOT_PROVEN",
+    "SUBAGENTS_OPERATIONAL_CLAIM = NOT_PROVEN",
+    "CI_CONFIGURED_CLAIM = NOT_PROVEN",
+    "TESTS_PASS_CLAIM = NOT_PROVEN",
+    "VALIDATION_READINESS_CLAIM = NOT_PROVEN",
+    "OOS_READINESS_CLAIM = NOT_PROVEN",
+    "BENCHMARK_ADVANTAGE_CLAIM = NOT_PROVEN",
+    "EV_CORRECTNESS_CLAIM = NOT_PROVEN",
+    "ECONOMIC_CORRECTNESS_CLAIM = NOT_PROVEN",
+    "PRODUCTION_READINESS_CLAIM = NOT_PROVEN",
+    "REPRODUCIBLE_LOCKED_RUNTIME_CLAIM = NOT_PROVEN",
+    "DD_READINESS_CLAIM = NOT_PROVEN",
+    "SALE_READINESS_CLAIM = NOT_PROVEN",
+    "VALUATION_SUPPORT_CLAIM = NOT_PROVEN",
+    "TARGET_TRANSACTION_OBJECTIVE_15M_SUPPORT_CLAIM = NOT_PROVEN"
+  ],
+  "config_hash_lineage_classified": "YES",
+  "decision_output_hash_lineage_classified": "YES",
+  "evidence_basis": "EXTERNAL_FILE_OBSERVED_AND_TOOL_OUTPUT_OBSERVED",
+  "input_hash_lineage_classified": "YES",
+  "lineage_case_count": 7,
+  "lineage_cases": [
+    {
+      "case_id": "BASE_A_CONFIG_TRACE",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "REPLAY_B_SAME_INPUT_CONFIG",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "REPLAY_C_SAME_INPUT_CONFIG",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "CONFIG_METADATA_VARIANT",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "CONFIG_RISK_THRESHOLD_CLASSIFICATION",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "CONFIG_LIQUIDITY_THRESHOLD_CLASSIFICATION",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    },
+    {
+      "case_id": "CONFIG_EV_THRESHOLD_CLASSIFICATION",
+      "config_hash_lineage_classified": "YES",
+      "decision_output_hash_lineage_classified": "YES",
+      "decision_output_parse_status": "PARSE_OK",
+      "execution_manifest_parse_status": "PARSE_OK",
+      "input_hash_lineage_classified": "YES",
+      "trace_receipt_present_or_absence_classified": "TRACE_RECEIPT_ABSENT_C05_TRACE_DESIGN_GAP"
+    }
+  ],
+  "manifest_hash_fields_classified": "YES",
+  "missing_trace_fields": [
+    "separate_trace_receipt_file_absent"
+  ],
+  "partial_failure_occurred": "NO",
+  "proof_ceiling": "C04_C05_CONFIG_TRACE_REPLAY_SYNTHETIC_RUNTIME_EVIDENCE_WITH_LIMITS_NO_TESTS_NO_VALIDATION_NO_REAL_DATA_NO_CORRECTNESS_PROOF_NO_READINESS_PROOF",
+  "trace_hash_lineage_minimums_met": "YES_WITH_TRACE_RECEIPT_ABSENCE_FINDING",
+  "trace_hash_lineage_status": "PASS_WITH_LIMITS",
+  "trace_receipt_hashes_classified": "ABSENT",
+  "trace_receipt_present_or_absence_classified": "YES_ABSENCE_CLASSIFIED_AS_C05_TRACE_DESIGN_GAP"
+}
