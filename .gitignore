@@ -1,0 +1,74 @@
+# QIRA root .gitignore
+# Materialized from Phase 3A gitignore candidate and blocklist policy.
+# This file does not authorize git add.
+# This file does not authorize commit.
+# This file does not authorize push.
+# First commit requires separate user/QG authorization.
+# GitHub state remains user-reported / screenshot-observed only unless separately verified.
+# Runtime/tests/validation are not authorized by this file.
+
+# ALWAYS_EXCLUDE: git and GitHub control surfaces unless separately authorized
+.git/
+.github/
+
+# ALWAYS_EXCLUDE: runtime, evidence, secrets, data, tests, validation
+_run/
+_evidence/
+_evidence_templates/
+secrets/
+.env
+.env.*
+data/
+tests/
+validation/
+
+# ALWAYS_EXCLUDE: Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ALWAYS_EXCLUDE: temporary files, logs, backups, OS/editor junk
+*.tmp
+*.log
+*.bak
+*.old
+*.swp
+*.swo
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ALWAYS_EXCLUDE: virtual environments, dependency folders, build/package outputs
+node_modules/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# QG_DECISION_REQUIRED: factory preflight artifacts are advisory only
+_factory/git_preflight/
+
+# REVIEW_REQUIRED: evidence receipts and factory artifacts require explicit QG include decision
+_factory/verification/receipts/
+_factory/
+_state/state_ledger.proposed.jsonl
+
+# QIRA Phase 3B-D local run/build/log artifact exclusions
+# This section does not authorize git add, commit, push, remote add, or GitHub connection.
+# First commit requires separate user/QG authorization.
+_runs/
+_run_logs/
+**/build_tmp/
+**/install_tmp/
+**/rebuilt_dist/
+**/outputs/
+*.whl
+stdout.txt
+stderr.txt

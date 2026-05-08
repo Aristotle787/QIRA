@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qira"
+version = "0.0.0"
+description = "QIRA package baseline for institutional expected value decision infrastructure."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+qira-active-core = "qira.run_active_core:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["qira*"]
+
+[tool.qira.package_baseline]
+document_id = "QIRA_LAYER6A_4_PACKAGE_BASELINE_PYPROJECT_v1"
+active_project = "QIRA"
+active_root = "C:\\CAF-V2-Build"
+legacy_name_rule = "CAF is legacy / historical only."
+old_root_forbidden_boundary = "C:\\cog-ci\\CAF-Release"
+package_baseline_status = "PACKAGE_BASELINE_ONLY"
+layer6_closure_status = "NOT_CLOSED_BY_THIS_FILE"
+wave02_status = "NOT_AUTHORIZED"
+runtime_execution_status = "NOT_EXECUTED_BY_THIS_FILE"
+test_execution_status = "NOT_EXECUTED_BY_THIS_FILE"
+technical_readiness = "NOT_PROVEN"
+dd_readiness = "NOT_PROVEN"
+sale_readiness = "NOT_PROVEN"
+sale_value_defensibility = "NOT_PROVEN"
+support_15m = "NOT_PROVEN"
+
+[tool.qira.proof_limits]
+limits = [
+  "This pyproject.toml creates only a minimal package baseline.",
+  "This pyproject.toml does not prove QIRA technical readiness.",
+  "This pyproject.toml does not prove DD readiness.",
+  "This pyproject.toml does not prove sale readiness.",
+  "This pyproject.toml does not prove sale-value defensibility.",
+  "This pyproject.toml does not prove 15M support.",
+  "This pyproject.toml does not authorize Wave 02.",
+  "This pyproject.toml does not authorize runtime execution.",
+  "This pyproject.toml does not authorize test execution."
+]
